@@ -21,6 +21,10 @@ CSS Transitionの説明に入る前に、CSS Transformsについて説明して�
 
 ここでは、例と一緒にTransformsの使い方を見ていきましょう。
 
+例ではCodeGritのロゴに変化を加えていきます。
+
+![ロゴマーク](./images/mark.png)
+
 ### Transformsの2つのプロパティ
 
 Transformsには以下の2つのプロパティがあります。
@@ -29,10 +33,10 @@ Transformsには以下の2つのプロパティがあります。
 
 `transform`はどのような変化を起こしたいか指定するために利用します。
 
-例えば、先ほどの画像を横の長さはそのまま、縦の長さを半分の大きさにし、45度右回りに回転してみます。
+例えば、画像を横の長さはそのまま、縦の長さを半分の大きさにし、45度右回りに回転してみます。
 
 ```html
-<img class="logo-mark" src="./images/logo-mark.png">
+<img class="logo-mark" src="./images/mark.png">
 ```
 
 ```css
@@ -41,7 +45,7 @@ Transformsには以下の2つのプロパティがあります。
 }
 ```
 
-<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/Lj6ns4q2/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/Lj6ns4q2/3/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 また、画像の位置を画像の横幅の半分の長さだけ左に移動したいという場合以下のようにします。
 
@@ -51,7 +55,7 @@ Transformsには以下の2つのプロパティがあります。
 }
 ```
 
-<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/umnrc675/1/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/785e24hq/1/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 **transformのシンタックス**
 
@@ -80,10 +84,6 @@ transformに利用できるtransform関数は現在全部で21あります。こ
 
 `transform-origin`は要素に変化を与える際の基準になる位置を決めるために利用します。。デフォルトでは`transform-origin: 50%, 50%, 0`と設定されており、これは要素の中心を意味しています。
 
-例えば、以下のCodeGritのロゴに変化を加えるとしましょう。
-
-![ロゴマーク](./images/mark.png)
-
 この画像の左底を起点に90度回転したいという場合は、以下のようにします。
 
 ```css
@@ -93,7 +93,7 @@ transformに利用できるtransform関数は現在全部で21あります。こ
 }
 ```
 
-<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/ofpqsL4e/4/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/jbag7vmp/1/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 **transform-originのシンタックス**
 
