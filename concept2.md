@@ -30,6 +30,8 @@ CSS Transitionを利用すると、最初の状態から最後の状態への変
 }
 ```
 
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/sqwp2Lhj/1/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
 [サンプルコード](https://github.com/codegrit-jp-students/codegrit-html-css-lesson06-sample-transition)
 
 以降では、この例を基にTransitionのプロパティをそれぞれ解説していきます。
@@ -76,3 +78,5 @@ CSS Transitionを利用すると、最初の状態から最後の状態への変
   transition: all 1s 0.5s linear;
 }
 ```
+
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/athLus96/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>

@@ -34,19 +34,24 @@ Transformsには以下の2つのプロパティがあります。
 ```html
 <img class="logo-mark" src="./images/logo-mark.png">
 ```
+
 ```css
 .logo-mark {
-  transform: scale(1, 0.5) rotate(45deg)
+  transform: scale(1, 0.5) rotate(45deg);
 }
 ```
+
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/Lj6ns4q2/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 また、画像の位置を画像の横幅の半分の長さだけ左に移動したいという場合以下のようにします。
 
 ```css
 .logo-mark {
-  transform: translate(-50%, 0)
+  transform: translate(-50%, 0);
 }
 ```
+
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/umnrc675/1/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 **transformのシンタックス**
 
@@ -87,6 +92,8 @@ transformに利用できるtransform関数は現在全部で21あります。こ
   transform: rotate(90deg);
 }
 ```
+
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/ofpqsL4e/4/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 **transform-originのシンタックス**
 

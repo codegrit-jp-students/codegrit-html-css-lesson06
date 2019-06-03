@@ -34,6 +34,8 @@ CSS Transitionでは2つのポイントしか指定できませんでした。�
 }
 ```
 
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/cqL318kz/1/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
 [サンプルコード](https://github.com/codegrit-jp-students/codegrit-html-css-lesson06-sample-css-animation)
 
 いかがでしょうか、アニメーションというと難しそうですが書き方自体は直感的にも分かりやすいのではないでしょうか？ これ以降の項目ではCSS Animationモジュールの各プロパティと、アニメーションを指定するための`@keyframes`プロパティについて詳しく見ていきましょう。

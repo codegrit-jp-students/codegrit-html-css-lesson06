@@ -33,7 +33,6 @@ FacebookやTwitterを開いた時に、読み込み中にグレーで表示さ�
 
 - [codegrit-html-css-ch06-starter](https://github.com/codegrit-jp-students/codegrit-html-css-ch06-starter)
 
-
 ## マイルストーン1
 
 ### スペック
